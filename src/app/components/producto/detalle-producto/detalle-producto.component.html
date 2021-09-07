@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-md-4 mx-auto">
+      <!-- <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Titulo: {{producto.nombre}}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Precio: {{producto.precio}}</h6>
+          <p class="card-text">id: {{producto.id}}</p>
+          <button class="btn btn-primary btn-block" (click)="volver()">
+            <i class="fas fa-arrow-left mr-1"></i>
+            Volver
+          </button>
+        </div>
+      </div> -->
+      <div class="card" style="width: 18rem;">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Titulo: {{producto.nombre}}</li>
+          <li class="list-group-item">Precio: ${{producto.precio}}</li>
+          <li class="list-group-item">id: {{producto.id}}</li>
+        </ul>
+        <div class="card-footer">
+          <button class="btn btn-primary btn-block" (click)="volver()">
+            <i class="fas fa-arrow-left mr-1"></i>
+            Volver
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
